@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: rgb(41, 83, 54);
+    overflow-x: hidden;
+}
+
+header {
+    width: ;
+    background-color: white;
+    height: 50px;
+}
+
+.header {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+.imagen-promo {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.imagen {
+    box-shadow: 0 0 20px #000a;
+}
+
+
+.titulo-productos {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+    letter-spacing: 2px;
+}
+
+.container-items {
+    margin-top: 50px;
+    width: 100%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 50px;
+}
+
+.items {
+    width: 100%;
+    height: 400px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+fieldset {
+    border: 1px solid rgb(41, 83, 54);
+    padding: 0.3em 0.6em 0.3em;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #0003;
+}
+
+legend {
+    padding: 0 6px;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0;
+    padding: 0.8em 0.7em 0.8em
+}
